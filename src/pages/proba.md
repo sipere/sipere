@@ -1,3 +1,0 @@
-# Újabb
-
-Újabb Markdown oldal
