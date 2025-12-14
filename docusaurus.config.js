@@ -23,12 +23,16 @@ const config = {
   url: 'https://sipere.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/sipere/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'sipere', // Usually your GitHub org/user name.
   projectName: 'sipere', // Usually your repo name.
+
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
+
 
   onBrokenLinks: 'throw',
 
@@ -96,7 +100,7 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/orgs/sipere/repositories',
             label: 'GitHub',
             position: 'right',
           },
