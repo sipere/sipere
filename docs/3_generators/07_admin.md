@@ -9,3 +9,5 @@ The admin generator creates a user named "admin" in the database, and asks for a
 ```bash
 node op admin:generate
 ```
+
+The command will prompt for the admin user password.

@@ -32,6 +32,8 @@ When importing, the file extension determines whether to try to interpret the co
 ]
 ```
 
+The model name is in lowercase, as seen in the sample:
+
 ```bash
 node op db:import employee employee_data.json
 ```
@@ -45,6 +47,8 @@ id,name
 1,John Doe
 2,Jane Doe
 ```
+
+The model name is in lowercase, as seen in the sample:
 
 ```bash
 node op db:import employee employee_data.csv ","

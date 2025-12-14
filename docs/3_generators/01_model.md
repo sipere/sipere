@@ -5,7 +5,7 @@ sidebar_position: 1
 # Model generating
 
 ```bash
-node op make:model <modelname> [options]]
+node op make:model <modelname> [options]
 ```
 
 Options:
@@ -19,6 +19,8 @@ Options:
 * -a, --all Generate all files and content
 
 ## For example
+
+The model name is written in lowercase, singular.
 
 ```bash
 node op make:model employee -a

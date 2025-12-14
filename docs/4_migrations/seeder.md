@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Migrations
+# Seeders
 
 ## Generate seeder file
 
@@ -18,13 +18,13 @@ For example:
 node op make:seeder employee
 ```
 
-Pissible file name:
+Possible file name:
 
 * 2025_12_13_112951_seed_employee.js
 
-## Writer seeder
+## Write seeder
 
-The migration file
+The migration file:
 
 ```javascript
 import db from '../../app/models/modrels.js';

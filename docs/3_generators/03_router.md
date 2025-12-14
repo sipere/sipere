@@ -16,7 +16,7 @@ For example:
 node op make:router employee
 ```
 
-This command creates routing entries for all CRUD operations in the api.ts file.
+This command creates routing entries for all CRUD operations in the api.ts file. The router name is written in lowercase and singular.
 
 Example:
 
@@ -29,3 +29,5 @@ router.post('/employees', EmployeeController.store);
 router.put('/employees/:id', EmployeeController.update);
 router.delete('/employees/:id', EmployeeController.destroy);
 ```
+
+You can edit the entered lines as needed.

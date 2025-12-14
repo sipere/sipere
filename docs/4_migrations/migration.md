@@ -52,6 +52,8 @@ async function down({context: QueryInterface}) {
 export { up, down }
 ```
 
+Edit the field names as desired.
+
 ## Run migration
 
 We can run all migrations at once, or a specific migration.

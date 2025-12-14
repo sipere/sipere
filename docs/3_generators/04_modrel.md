@@ -10,7 +10,7 @@ Models are collected in the app/models/modrels.js file. The tables they represen
 node op make:modrel <model_name>
 ```
 
-The name must be the name of an existing model.
+The name must be the name of an existing model. The model name is also written in lowercase and singular.
 
 For example:
 
