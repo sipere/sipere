@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# The Sipere projekct
+# The Sipere project
 
 Sipere is an open source Express-based framework for rapid REST API development.
 

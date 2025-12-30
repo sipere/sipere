@@ -23,5 +23,23 @@ Options:
 The model name is written in lowercase, singular.
 
 ```bash
+node op make:model employee
+```
+
+By generating all the resource files:
+
+```bash
 node op make:model employee -a
+```
+
+Model generation with controller:
+
+```bash
+node op make:model employee -c
+```
+
+Model generation with controller and routing:
+
+```bash
+node op make:model employee -c -r
 ```

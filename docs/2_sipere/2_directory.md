@@ -16,14 +16,14 @@ my-project/
   |  `-index.js
   |-database/
   |  |-migrations/
-  |  |-seeders/
+  |  `-seeders/
   |-docs/
   |-test/
   |-.env
   |-.env.example
   |-.env.test
   |-database.sqlite
-  |-ndemon.json
+  |-nodemon.json
   |-op
   |-package.json
   `-README.md
